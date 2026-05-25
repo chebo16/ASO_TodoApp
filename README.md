@@ -15,16 +15,17 @@ Proiectul include:
 ## Structura proiectului
 
 ```text
-ASO_TodoApp/
-├── Controllers/
-│   └── TodosController.cs
-├── Data/
-│   └── AppDbContext.cs
-├── Models/
-│   └── TodoItem.cs
-├── wwwroot/
-│   └── index.html
-├── Program.cs
-├── TodoApp.csproj
-├── appsettings.json
-└── README.md
+ASO_TodoApp:
+1)Controllers
+  TodosController.cs
+2)Data
+  AppDbContext.cs
+3)Models
+  TodoItem.cs
+4)wwwroot
+  index.html
+5)Program.cs
+6)README.md
+7)TodoApp.csproj
+8)appsettings.json
+

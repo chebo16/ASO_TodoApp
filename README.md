@@ -1,11 +1,30 @@
 # TodoApp — ASP.NET Core 8
 
-Aplicație simplă de tip TODO cu REST API și interfață web, construită cu:
+Aplicație simplă de tip TODO realizată folosind ASP.NET Core.
 
-- **ASP.NET Core 8** (Web API + Static Files)
-- **Entity Framework Core 8** + **SQLite** (baza de date locală)
-- **Vanilla JS** frontend (fără framework, fișier unic)
+Proiectul include:
+
+- ASP.NET Core 8 Web API
+- Entity Framework Core
+- SQLite
+- Swagger
+- Interfață web simplă în HTML, CSS și JavaScript
 
 ---
 
 ## Structura proiectului
+
+```text
+ASO_TodoApp/
+├── Controllers/
+│   └── TodosController.cs
+├── Data/
+│   └── AppDbContext.cs
+├── Models/
+│   └── TodoItem.cs
+├── wwwroot/
+│   └── index.html
+├── Program.cs
+├── TodoApp.csproj
+├── appsettings.json
+└── README.md
